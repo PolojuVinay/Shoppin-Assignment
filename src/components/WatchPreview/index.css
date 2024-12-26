@@ -1,0 +1,39 @@
+.watch-preview {
+  text-align: center;
+}
+
+.watch-image img {
+  width: 200px;
+  height: auto;
+}
+
+.watch-details {
+  margin: 20px 0;
+}
+
+.watch-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.option-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-group button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.option-group button.active {
+  background: #0070c9;
+  color: #fff;
+  border: 1px solid #005bb5;
+}
